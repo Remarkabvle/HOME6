@@ -17,7 +17,11 @@ const resources = {
       male: "Male",
       skype: "Skype",
       promo: "Promo",
-      continue: "Continue"
+      continue: "Continue",
+      item_name: "Item name",
+      quantity: "Quantity",
+      price: "Price",
+      description: "Description"
     }
   },
   ru: {
@@ -35,7 +39,11 @@ const resources = {
       male: "Мужской",
       skype: "Скайп",
       promo: "Промо",
-      continue: "Продолжить"
+      continue: "Продолжить",
+      item_name: "Наименование товара",
+      quantity: "Количество",
+      price: "Цена",
+      description: "Описание"
     }
   },
   uz: {
@@ -53,7 +61,11 @@ const resources = {
       male: "Erkak",
       skype: "Skype",
       promo: "Promo",
-      continue: "Davom etish"
+      continue: "Davom etish",
+      item_name: "Mahsulot nomi",
+      quantity: "Miqdor",
+      price: "Narx",
+      description: "Tavsif"
     }
   }
 };

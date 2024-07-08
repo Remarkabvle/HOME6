@@ -1,14 +1,17 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
-// import './Register.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const Register = () => {
   const { t } = useTranslation();
   const { register, handleSubmit, formState: { errors } } = useForm();
+  const navigate = useNavigate();
 
   const onSubmit = data => {
     console.log(data);
+    navigate('/purchase'); 
   };
 
   return (
