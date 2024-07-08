@@ -1,0 +1,96 @@
+/* Container to center the form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center elements inside the form */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo span:first-child {
+  background-color: #00aaff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.logo span:last-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.form input,
+.form select,
+.form button {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Full width for better form layout */
+}
+
+.form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  align-self: flex-start; /* Align labels to the start */
+}
+
+.form input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #0088cc;
+}
+
+.form p {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Specific styles for alignment and spacing */
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.radio-group input {
+  margin-right: 5px;
+}
